@@ -1,0 +1,12 @@
+{
+    "name": "weblab/common",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Timkor",
+            "email": "timothy.korse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
