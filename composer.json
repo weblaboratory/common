@@ -1,6 +1,6 @@
 {
     "name": "weblab/common",
-	"description": "Common classes used in weblab",
+    "description": "Common classes used in weblab",
     "type": "library",
     "authors": [
         {
@@ -12,7 +12,7 @@
     "require": {},
 	"autoload": {
         "psr-0": {
-            "Weblab\\Common": "lib/"
+            "Weblab\\Common\\": "library/"
         }
     }
 }
