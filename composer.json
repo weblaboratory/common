@@ -1,6 +1,6 @@
 {
     "name": "weblab/common",
-    "description": "Common classes used in weblab",
+    "description": "Common classes used in Weblab",
     "type": "library",
     "authors": [
         {
