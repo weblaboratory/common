@@ -2,12 +2,14 @@
 
 namespace Weblab\Common;
 
+use Weblab\Concepts\Iterable;
+
 /**
  * Description of AbstractList
  *
  * @author Tim
  */
-abstract class AbstractList {
+abstract class AbstractList implements Collection {
     
     public abstract function get($index);
     
@@ -19,4 +21,5 @@ abstract class AbstractList {
     public abstract function removeAt($index);
     
     public abstract function indexOf($item);
+    
 }

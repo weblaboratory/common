@@ -9,7 +9,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "weblab/concepts": "dev-master"
+    },
 	"autoload": {
         "psr-0": {
             "Weblab\\Common\\": "library/"

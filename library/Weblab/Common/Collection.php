@@ -7,6 +7,6 @@ namespace Weblab\Common;
  *
  * @author Tim
  */
-class Collection {
+interface Collection extends \IteratorAggregate {
     
 }

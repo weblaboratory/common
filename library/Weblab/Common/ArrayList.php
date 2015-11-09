@@ -44,4 +44,12 @@ class ArrayList extends AbstractList {
     public function get($index) {
         return $this->data[$index];
     }
+    
+    public function iterate() {
+        return 'test';
+    }
+
+    public function getIterator() {
+        return new \ArrayIterator($this->data);
+    }
 }
